@@ -22,47 +22,47 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Frisket',
                 'trait' => 'Mother of all pups',
-                'image_url' => url('images/1.jpg'),
+                'image_url' => 'images/1.jpg',
             ],
             [
                 'name' => 'Chase',
                 'trait' => 'Very good boi',
-                'image_url' => url('images/2.jpg'),
+                'image_url' => 'images/2.jpg',
             ],
             [
                 'name' => 'Leia',
                 'trait' => 'Enjoys naps',
-                'image_url' => url('images/3.jpg'),
+                'image_url' => 'images/3.jpg',
             ],
             [
                 'name' => 'Pupi',
                 'trait' => 'Loves cheese',
-                'image_url' => url('images/4.jpg'),
+                'image_url' => 'images/4.jpg',
             ],
             [
                 'name' => 'Russ',
                 'trait' => 'Ready to save the world',
-                'image_url' => url('images/5.jpg'),
+                'image_url' => 'images/5.jpg',
             ],
             [
                 'name' => 'Yoko',
                 'trait' => 'Ready for anything',
-                'image_url' => url('images/6.jpg'),
+                'image_url' => 'images/6.jpg',
             ],
             [
                 'name' => 'Luna',
                 'trait' => 'Howls at the moon',
-                'image_url' => url('images/7.jpg'),
+                'image_url' => 'images/7.jpg',
             ],
             [
                 'name' => 'Rex',
                 'trait' => 'Fetches everything',
-                'image_url' => url('images/8.jpg'),
+                'image_url' => 'images/8.jpg',
             ],
             [
                 'name' => 'Bella',
                 'trait' => 'Always happy',
-                'image_url' => url('images/9.jpg'),
+                'image_url' => 'images/9.jpg',
             ],
         ];
 

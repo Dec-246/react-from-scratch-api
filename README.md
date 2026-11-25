@@ -10,28 +10,46 @@ For things to work properly, you'll need to:
 -   **Create a symbolic link from source directory**: Run `php artisan storage:link` to make stored images accessible publicly.
 -   **Run the Laravel app locally** and make sure the React app uses the correct API URL when trying to hit it.
 
-# STARTING THIS PROJECT
+# Starting this project
 
-## API APP
+## API app
 
-This will install PHP 8.4.x for the terminal session open and no longer after that.
+### Start the server
 
-use in terminal:
+The `export` line sets PHP 8.4 for the current terminal session only.
 
-``` 
+```bash
 cd ~/projects/react-from-scratch-api
 export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
-php artisan serve 
+php artisan serve
 ```
 
-### React App
-
-``` 
-cd ~/projects/React-from-scratch
-npm run dev 
-```
-
-
-# OPENING API in Browser
+### View the API in the browser
 
 http://127.0.0.1:8000/api/puppies
+
+### View the database
+
+Run in terminal:
+
+```bash
+open `database/database.sqlite`.
+```
+
+#### Example: updating the database
+
+- Add a new row to the `puppy_user` table
+- Save with `CMD + S`
+
+![Updating a liked puppy in the database](<Screenshot 2026-11-25 at 13.33.51.png>)
+
+## React app
+
+Repo: https://github.com/Dec-246/React-from-scratch
+
+### Start the server
+
+```bash
+cd ~/projects/React-from-scratch
+npm run dev
+```
