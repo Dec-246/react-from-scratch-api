@@ -33,7 +33,7 @@ http://127.0.0.1:8000/api/puppies
 Run in terminal:
 
 ```bash
-open `database/database.sqlite`.
+open database/database.sqlite
 ```
 
 #### Example: updating the database

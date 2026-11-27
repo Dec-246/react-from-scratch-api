@@ -38,7 +38,7 @@ Route::post('/puppies', function (Request $request) {
     $puppy = Puppy::factory()->create(
         [
             ...$validated,
-            'image_url' => asset($path)
+            'image_url' => asset('storage/'.$path)
         ]
     );
     return new PuppyResource($puppy);
