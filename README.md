@@ -2,6 +2,8 @@
 
 This laravel app is used to provide a few simple API endpoints for the React from scratch Laracasts series.
 
+https://laracasts.com/series/react-from-scratch
+
 There is no authentication nor access restriction in there — it's just meant to be ran locally alongside the React app to have some endpoints to hit.
 
 For things to work properly, you'll need to:
